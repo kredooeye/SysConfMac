@@ -33,9 +33,6 @@ configuration = {
         "free_bytes": free_disk_space,
         "total gb": round(total_disk_space / (1024 ** 3), 2),
         "free gb": round(free_disk_space / (1024 ** 3), 2)
-    },
-    "network": {
-        "interfaces": os.listdir('/sys/class/net/')
     }
 }
 
